@@ -9,12 +9,8 @@ const nextConfig = {
         destination: 'http://localhost:3000' || '',
       },
       {
-        source: '/backoffice-psae',
+        source: '/second-app',
         destination: `http://localhost:3001`,
-      },
-      {
-        source: '/backoffice-psae/:path*',
-        destination: `http://localhost:3001/:path*`,
       },
     ];
   },
